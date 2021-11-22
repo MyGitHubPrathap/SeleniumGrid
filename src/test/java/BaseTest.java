@@ -26,6 +26,7 @@ public class BaseTest {
         System.out.println("browser name is: "+ browserName );
         String methodName = name.getName();
         String remoteUrl = "http://localhost:4444/wd/hub/";
+        
         System.out.println("Selenium hub url is: "+remoteUrl);
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("name",methodName);
