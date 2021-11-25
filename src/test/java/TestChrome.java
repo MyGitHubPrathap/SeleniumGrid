@@ -6,8 +6,6 @@ import org.testng.annotations.Test;
 public class TestChrome extends BaseTest{
     //https://www.demoblaze.com/
 
-
-
     @Test(priority = 1)
     public void checkLoginChrome() throws InterruptedException {
         doLogin();
